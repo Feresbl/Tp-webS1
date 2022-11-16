@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tp5</title>
+    <script src="code.js"></script>
+</head>
+<body>
+    <h1>Coordonnée</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label>Titre:</label></td>
+                <td><select><option>Madame</option><option>Monsieur</option></select></td>
+            </tr>
+            <tr>
+                <td><label>Nom</label></td>
+                <td><input type="text" id="nom" onchange="verifiertext()"></td>
+            </tr>
+            <tr>
+                <td><label>Prenom</label></td>
+                <td><input type="text" id="prenom" onkeyup="valider()"></td>
+            </tr>
+            <tr>
+                <td><label>Sexe</label></td>
+                <td><input type="radio">Masculin</td>
+                <td><input type="radio">Feminin</td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" id="email" onchange="mail()"></td>
+            </tr>
+            <tr>
+                <td><label>Tel</label></td> 
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td><label>Langues</label></td>
+                <td><input type="checkbox">Arabe</td>
+                <td><input type="checkbox">Francais</td>
+                <td><input type="checkbox">Anglais</td>
+            </tr>
+            <tr>
+                <td><label>Centre d'interet</label></td>
+                <td><input type="checkbox">Musique</td>
+                <td><input type="checkbox">Sport</td>
+                <td><input type="checkbox">Anglais</td>
+            </tr>
+        </table>
+        <input type="submit" value="verifier">
+        <input type="button" value="enregistrer" disabled>
+    </form>
+</body>
+</html>

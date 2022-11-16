@@ -1,0 +1,23 @@
+.parent {
+     background-color: grey;
+     height: 500 px;
+     width: 50%;
+     margin:auto; 
+     margin-top: 30%;   
+}
+.child {
+     background-color: blue;
+     position: relative;
+     margin-top: 25%;
+     margin-left: 50%;
+     height: 170px;
+     width: 50%;
+}
+.fix {
+     position: fixed;
+     bottom: 0%;
+     right: 0%;
+     color: aliceblue; 
+     background-color: blue;
+     width: 15%;
+}
